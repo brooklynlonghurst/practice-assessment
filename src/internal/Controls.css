@@ -1,0 +1,30 @@
+.controls-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  top: 0;
+  right: 0;
+  padding: 8px 16px;
+  border-bottom-left-radius: 8px;
+  box-shadow: -2px 2px 6px gray;
+}
+
+.controls-container .radio-option {
+  display: flex;
+  font-size: 0.875rem;
+  gap: 0.125rem;
+}
+
+.controls-container .title {
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.controls-container .note {
+  font-size: 0.75rem;
+}
+
+.controls-container code {
+  font-weight: bold;
+}
