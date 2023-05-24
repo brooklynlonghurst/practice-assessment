@@ -59,7 +59,7 @@ function App() {
         setLoading(false)
       })
   }
-//handleAddPokemon is my fetch POST request. With POST request while using fetch, it takes in two arguments, the url and then an object. The object includes declaring what type of method it is, the headers, which is explaining that I want to use JSON, the body and again setting that to JSON.stringify first. Inside the body is where I set a variable 'name' to what is placed in the inputText (so whatever is typed in the input field is going to posted). The .then and .catch are similiar to the GET request where we define the response will be in JSON and sending the data to setPokemonList, making sure the Loading p is not apparent and clearing out the input field by setting the setInputText to an empty string again. 
+//handleAddPokemon is my fetch POST request. With POST request while using fetch, it takes in two arguments, the url and then an object. The object includes declaring what type of method it is, the headers, which is explaining that I want to use JSON, the body and again setting that to JSON.stringify first. Inside the body is where I declare a variable 'name' to what is placed in the inputText (so whatever is typed in the input field is going to be posted). The .then and .catch are similiar to the GET request where we define the response will be in JSON and sending the data to setPokemonList, making sure the Loading p is not apparent and clearing out the input field by setting the setInputText to an empty string again. 
 
   const handleDeletePokemon = (pokemonId) => {
     setLoading(true)
